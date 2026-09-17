@@ -1,11 +1,11 @@
 # Agora: Git as Shared Memory for Collective AutoResearch
 
 [![arXiv](https://img.shields.io/badge/arXiv-2609.18094-b31b1b.svg)](https://arxiv.org/abs/2609.18094)
-[![Website](https://img.shields.io/badge/Project-Website-blue)](https://yifanzhang-pro.github.io/agora/)
+[![Website](https://img.shields.io/badge/Project-Website-blue)](https://yifanzhang-pro.github.io/Agora/)
 
 **Authors:** [Yifan Zhang](https://yifzhang.com), Yunheng Zou, Shaokun Zhang, Jian Hu, Hao Zhang, Binfeng Xu, Jan Kautz, Yi Dong (NVIDIA)
 
-**Paper:** [arXiv:2609.18094](https://arxiv.org/abs/2609.18094) · [PDF](./Agora.pdf) · **Project page:** https://yifanzhang-pro.github.io/agora/
+**Paper:** [arXiv:2609.18094](https://arxiv.org/abs/2609.18094) · [PDF](./Agora.pdf) · **Project page:** https://yifanzhang-pro.github.io/Agora/
 
 Autonomous research loops such as AutoResearch show that one coding agent can improve a training setup unattended. Run several of them and each session starts from scratch, so more agents tend to mean more duplicated search rather than more discovery. **Agora** is a shared memory for such agents: research is recorded as an append-only directed acyclic graph (DAG) stored in Git, so that every claim is a commit anyone can check out and rerun.
 
